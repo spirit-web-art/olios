@@ -1,0 +1,244 @@
+/*fonts*/
+@font-face {
+	font-family: 'Conv_Lato-Black';
+	src: url('fonts/Lato-Black.eot');
+	src: local('☺'), url('fonts/Lato-Black.woff') format('woff'), url('fonts/Lato-Black.ttf') format('truetype'), url('fonts/Lato-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Lato-Bold';
+	src: url('fonts/Lato-Bold.eot');
+	src: local('☺'), url('fonts/Lato-Bold.woff') format('woff'), url('fonts/Lato-Bold.ttf') format('truetype'), url('fonts/Lato-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Lato-Thin';
+	src: url('fonts/Lato-Thin.eot');
+	src: local('☺'), url('fonts/Lato-Thin.woff') format('woff'), url('fonts/Lato-Thin.ttf') format('truetype'), url('fonts/Lato-Thin.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body, html{
+	padding: 0;
+	margin: 0;
+}
+.carousel-control-next, .carousel-control-prev { 
+	filter: invert(100%); 
+}
+.carousel-inner img {
+	width: 100vw;
+	height: auto;
+	}
+h1{
+	color: black;
+	font-size: 6vw;
+	font-family: 'Conv_Lato-Thin';
+	text-align: center;
+	font-weight: bolder;
+	margin-top: -48vw;
+	margin-left: 37vw;
+	position: absolute;
+}
+h2{
+	color: black;
+	font-family: 'Conv_Lato-Black';
+    text-align: center;
+    font-size: 19vw;
+    opacity: 04%;
+    margin-top: -56vw;
+	margin-left: 7vw;
+	position: absolute;
+}
+h3{
+	color: black;
+	font-family: 'Conv_Lato-Thin';
+	text-align: center;
+	margin-top: -40vw;
+    margin-left: 32vw;
+	position: absolute;
+}
+.button{
+	position: absolute;
+    margin-left: 44vw;
+	margin-top: -36vw;
+}
+/* ------------------MENU BAR DEBUT------------------------------- */
+.menubar{
+		background-color: rgb(252, 253, 253);
+		width: 5vw;
+		height: 100vh;
+		margin: 0;
+		padding: 0;
+}
+.rondbleu{
+	margin-left: 1vw;
+}
+.home{
+	margin-top: 10vh;
+	margin-left: 1vw;
+}
+.panier{
+	margin-top: 10vh;
+	margin-left: 1vw;
+}
+.scroll{
+	margin-top: 50vh;
+	margin-left: 1vw;
+}
+/* ------------------MENU BAR FIN------------------------------- */
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.image-fluid{
+	max-width: 100%;
+    height: auto;
+}
+#produits{
+ background: url(image/accueil/photoaccueilbas.png) no-repeat;
+ width: 100vw;
+ height: 200vh;
+ background-size: cover
+}
+p{
+font-family: 'Conv_Lato-Thin';
+}
+.products{
+	margin-top: 5vw;
+	margin-bottom: 30px;
+	margin-left: 6vw;
+}
+.redseat{
+	margin-top: -7vw;
+	margin-left: 1vw;
+}
+.whitetable{
+	margin-top: -15vw;
+	margin-left: 35vw;
+}
+.ligne1 .ligne2{
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+}
+.blueseat{
+	margin-top: -130px;
+	margin-left: 20px;
+}
+.loreipsum{
+	font-size:1.5vw;
+}
+.titre1{
+	font-size: 2vw;
+}
+.prix1{
+  font-size: 1vw;
+  font-weight: 600;
+}
+.modenbed{
+	margin-top: -215px;
+	margin-left: 310px;
+}
+.darkseat{
+	margin-top: -130px;
+	margin-left: 20px;
+}
+.imagemodernbed{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+}
+.imagewhitetable{
+	padding-top: 40px;
+}
+/* PAGE 2 */
+#products2{
+	margin-top: 3em;
+	margin-left: 0em;
+}
+.livingroom{
+	margin-top: 5.6em;
+	margin-left: 4em;
+	width: 150px;
+	height: auto;
+}
+#whiteseat2{
+margin-top: 2em;
+text-align: center;
+margin-left: 0em;
+margin-right: 8em;
+}
+#office2{
+	margin-top: -1.9em;
+	text-align: center;
+	margin-left: 0em;
+	margin-right: -2.5em;
+}
+#textewhite1{
+    margin-left: 7em;
+	margin-top: 1em;
+	
+}
+#textewhite2{
+    margin-top: 1em;	
+    margin-left: 7em;
+	
+}
+#cost{
+	margin-left: 7em;
+	margin-top: 3em;
+}
+#quantity{
+	margin-top: 3em;
+	margin-left: -3em;
+}
+#prix65{
+	font-family: 'Conv_Lato-Black';
+    font-weight: bolder;
+	margin-left: 7em;
+}
+#prix90{
+	font-family: 'Conv_Lato-Black';
+    font-weight: bolder;
+	text-decoration-line: line-through;
+	margin-left: 4em;
+	margin-top: -2.8em;
+}
+#prix1{
+	margin-left: 22.7em;
+	margin-top: -3em;
+    
+}
+#button2{
+	margin-top: -3em;
+	margin-left: 31em;
+}
+#troisarticles{
+	margin-top: 11em;
+}
+#texteseat1{
+	margin-top: -3em;
+	margin-left: 1em;
+}
+.lorem1{
+	margin-top: -1em;
+	margin-left: 1em;
+}
+@media (max-width: 1200px) {
+	html { font-size: 1em!important; }
+	}
+	
+	@media (max-width: 992px) {
+    html { font-size: 0.9em!important; }
+	}
+
+	@media (max-width: 768px) {
+		html { font-size: 0.8em!important; }
+		}
+
+	@media (max-width: 576px) {
+			html { font-size: 0.7em!important; }
+			}
+
+			

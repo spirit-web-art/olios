@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="page.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Olios</title>
+</head>
+<body>
+
+<!--container global-->
+<div class="container-fluid">
+    <div class="col-12">
+<!-- -------------------------- colonne 12 ---------------------------------------------------------------------- -->
+<div class="container-fluid">
+    <div class="row">
+            <div class="col-xl-1 col-lg-1 col-sm-1 col-xs-1 menubar"><!--colonne 1 debut-->
+                <nav class="navbar flex-column ">
+                  <a class="nav-link active rondbleu" href="pageaccueil.html"><img class="img-fluid" src="image/menu/rondbleu.png" width="50" height="50" alt=""></a>
+                  <a class="nav-link home" href="pageaccueil.html"><img class="img-fluid" src="image/menu/home.png" width="50" height="50" alt=""></a>
+                  <a class="nav-link panier" href="produits.html"><img class="img-fluid" src="image/menu/panier.png" width="50" height="50" alt=""></a>
+                  <a class="nav-link disabled scroll" href="#"><img class="img-fluid" src="image/menu/scroll.png" width="50" height="50" alt=""></a>
+                </nav>
+            </div><!--colonne 1 fin-->
+       <!--SECTION 1 CAROUSEL-->
+        <div class="col-xl-11 col-lg-11 col-sm-11 col-xs-11" id=""><!--colonne 2 debut-->
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fullscreen" data-ride="carousel"><!--debut carousel-->
+                <ol class="carousel-indicators" style="color: blue;">
+                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                <div class="carousel-item active">  
+                    <img class="img-fluid" src="image/accueil/photoaccueil.png" alt="First slide"> 
+                    <div class="carousel-caption">
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="image/accueil/photoaccueil.png" alt="Second slide">
+                  <div class="carousel-caption">
+                </div> 
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="image/accueil/photoaccueil.png" alt="Third slide">
+                  <div class="carousel-caption">
+                </div> 
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+                <div class="container-fluid">
+                <div class="col"><h1>OLIOS</h1></div>                  
+                <div class="col"><h2>NEWEST</h2></div> 
+                <div class="col"><h3>NEWEST FURNITURE SHOP TEMPLATE</h3></div> 
+                <div class="col">  <a href="produits.html"><button type="button" class="btn btn-primary btn-sm button" >VIEW CARD</button></a></div>
+            </div>
+            </div><!--fin carousel-->
+            <!--SECTION 2 PRODUITS-->
+            <div class="container-fluid" id="produits">
+                <div class="d-grid gap-5">
+                <p class="products fw-bold fs-1">PRODUCTS</p>
+                 <div class="col-12">
+                    <div class="row g-2 justify-content-around ligne1"> <!--LIGNE 1-->
+                        <div class="col-3" style="background-color: white;"><!--RED SEAT-->
+                                <img class="img-fluid" src="image/produits/redseat.jpg" style="width: 25vw;">
+                                <div class="redseat">
+                                    <p class="fw-bold titre1">RED SEAT</p>
+                                    <P class="loreipsum">Lore ipsum dolor sit amet</P>
+                                    <p class="fw-bolder text-primary prix1">$45</p>
+                                </div>
+                        </div>
+                        <div class="col-8" style="background-color: white;"><!--WHITE TABLE-->
+                                <img class="img-fluid imagewhitetable" src="image/produits/whitetable.jpg" style="width: 80vw">
+                                <div class="whitetable">
+                                    <p class="fw-bold titre1">WHITE TABLE</p>
+                                    <P class="loreipsum">Lore ipsum dolor sit amet</P>
+                                    <p class="fw-bolder text-primary prix1">$350</p>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-12" style="height: 100px;">
+                    <div class="row g-2 justify-content-evenly ligne2"><!--LIGNE 2-->
+                        <div class="col-3 h-25 d-inline-block" style="background-color: white;"><!--BLUE SEAT-->
+                            <img class="img-fluid" src="image/produits/blueseat.jpg" style="width: 25vw;" alt="">
+                            <div class="blueseat">
+                                <p class="fw-bold titre1">BLUE SEAT</p>
+                                <P class="loreipsum">Lore ipsum dolor sit amet</P>
+                                <p class="fw-bolder text-primary prix1">$35</p>
+                            </div>
+                        </div>
+                        <div class="col-5" style="background-color:white;"><!--MODERN BED-->
+                            
+                            <img class="img-fluid imagemodernbed" src="image/produits/modernbed.jpg" style="width: 35vw;" alt="">
+                            <div class="modernbed">
+                                <p class="fw-bold titre1">MODERN BED</p>
+                                <P class="loreipsum">Lore ipsum dolor sit amet</P>
+                                <p class="fw-bolder text-primary prix1">$120</p>
+                            </div>
+                        </div>
+                        <div class="col-3 h-25 d-inline-block" style="background-color: rgb(251, 249, 252);"><!--DARK SEAT-->
+                        
+                            <img class="img-fluid" src="image/produits/darkseat.jpg" alt="">
+                        <div class="darkseat">
+                            <p class="fw-bold titre1">DARK SEAT</p>
+                            <P class="loreipsum">Lore ipsum dolor sit amet</P>
+                            <p class="fw-bolder text-primary prix1">$50</p>
+                        </div>
+                          </div>
+                      </div>
+                    </div>
+                        </div>   
+                    </div> 
+                   </div>
+                </div>
+            </div>
+         </div><!--colonne 2 fin-->
+
+</div>
+</div>
+        
+</div>
+
+
+</div>
+</div>
+               
+<footer>
+
+
+
+</footer>              
+       
+</body>
+</html> 
